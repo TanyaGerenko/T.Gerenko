@@ -12,7 +12,7 @@ n=int(input("Введите целое число:"))
 
 print(n,"->",end=" ")
 for j in range(1,n+1):
-    if j*j<n:
+    if j*j<=n:
          print(j*j,end=" ")
     else:
          break
