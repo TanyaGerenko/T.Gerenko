@@ -9,10 +9,10 @@
 #100   1 4 9 16 25 36 49 64 81 100
 #99    1 4 9 16 25 36 49 64 81
 n=int(input("Введите целое число:"))
-
-print(n,"->",end=" ")
-for j in range(1,n+1):
-    if j*j<=n:
-         print(j*j,end=" ")
-    else:
-         break
+i=1
+while i*i<n:
+    print(i,"->",end=" ")
+    for j in range(1,i):
+        print(j*j,end=" ")
+    print('\n')
+    i+=1
