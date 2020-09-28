@@ -11,10 +11,10 @@
 #Использовать оператор del НЕЛЬЗЯ!
 
 list_of_numbers=[]##объявление пустого списка
-import random ##подключение модуля случайных чисел random mas=[]
+import random ##подключение модуля случайных чисел 
 
 for i in range(10):
-     list_of_numbers.append(random.randint(0, 20))
+     list_of_numbers.append(random.randint(0, 100))
      ##заполнение списка 10-ю случайными числами в диапазоне от 0 до 100
 print(list_of_numbers)     ## вывод списка
 
